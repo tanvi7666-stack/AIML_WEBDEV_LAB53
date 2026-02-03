@@ -1,0 +1,116 @@
+@page { 
+    size: A3 portrait; 
+    margin: 25mm; 
+} 
+ 
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    margin: 0; 
+    background-color: #f6efe9; 
+    color: #5a3e36; 
+} 
+ 
+.page { 
+    width: 297mm; 
+    min-height: 420mm; 
+    margin: auto; 
+    background-color: #f6efe9; 
+} 
+ 
+/* Header */ 
+.header { 
+    background: linear-gradient(135deg, #f7b7a3, #f3c6d3); 
+    color: #4a2f2a; 
+    text-align: center; 
+    padding: 40px 20px; 
+} 
+ 
+/* Profile Image */ 
+.profile-section { 
+    display: flex; 
+    justify-content: center; 
+    margin-top: -60px; 
+} 
+ 
+.profile-section img { 
+    width: 160px; 
+    height: 160px; 
+    border-radius: 50%; 
+    border: 8px solid #fff1ea; 
+    background-color: #fff; 
+} 
+ 
+/* Main Layout */ 
+.main-container { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px; 
+    padding: 40px; 
+} 
+ 
+/* Sections */ 
+section { 
+    background-color: #fff8f4; 
+    padding: 28px; 
+    border-radius: 16px; 
+    box-shadow: 0 8px 16px rgba(210, 140, 130, 0.25); 
+} 
+ 
+h2 { 
+    color: #c97b84; 
+    margin-bottom: 14px; 
+} 
+ 
+/* Table */ 
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+} 
+ 
+th { 
+    background-color: #f7b7a3; 
+    color: #4a2f2a; 
+    padding: 12px; 
+} 
+ 
+td { 
+    padding: 12px; 
+    text-align: center; 
+    border-bottom: 1px solid #ead6cf; 
+} 
+ 
+/* Skills */ 
+ul { 
+    list-style-type: circle; 
+    padding-left: 24px; 
+} 
+ 
+/* Contact Form */ 
+form input, 
+form textarea { 
+    width: 100%; 
+    margin-bottom: 14px; 
+    padding: 10px; 
+    border-radius: 8px; 
+    border: 1px solid #e4b8ad; 
+    background-color: #fffdfc; 
+} 
+ 
+form button { 
+    width: 100%; 
+    background-color: #c97b84; 
+    color: white; 
+    border: none; 
+    padding: 12px; 
+    border-radius: 8px; 
+    font-size: 16px; 
+} 
+ 
+/* Footer */ 
+footer { 
+    text-align: center; 
+    padding: 20px; 
+    background-color: #f3c6d3; 
+    color: #4a2f2a; 
+} 
+ 
