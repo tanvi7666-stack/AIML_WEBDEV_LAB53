@@ -1,0 +1,33 @@
+/* Email container */
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px solid #333;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Confidential and Top Secret labels */
+#confidential,
+#top-secret {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-left: 20px;
+  border: 2px solid red;
+  font-weight: bold;
+}
+
+/* Rotations */
+#confidential {
+  transform: rotate(-15deg);
+}
+
+#top-secret {
+  transform: rotate(15deg);
+}
+
+/* Blurred text */
+.blurred {
+  filter: blur(3px);
+}

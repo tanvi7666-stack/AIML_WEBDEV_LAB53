@@ -1,0 +1,49 @@
+/* 1. Body background */
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* 2. Grid container */
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+/* 5. Common box size + border */
+.color-box {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  border: 3px solid #bbbbbb; /* soft border */
+}
+
+/* 6. Hexadecimal pastel color */
+.color1 {
+  background-color: #ffd1dc; /* pastel pink */
+}
+
+/* 7. RGB pastel color */
+.color2 {
+  background-color: rgb(173, 216, 230); /* pastel blue */
+}
+
+/* 8. Predefined (word) pastel-like color */
+.color3 {
+  background-color: lavender; /* soft word color */
+}
+
+/* 9. HSL pastel color */
+.color4 {
+  background-color: hsl(120, 60%, 85%); /* pastel green */
+}
+
+/* 10. Any pastel background color */
+.color5 {
+  background-color: #fff5ba; /* pastel yellow */
+}
